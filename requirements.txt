@@ -1,0 +1,7 @@
+# RAG Pipeline Dependencies
+# Install with: pip install -r requirements.txt
+
+anthropic>=0.25.0             # Anthropic Python SDK (Claude LLM)
+sentence-transformers>=2.7.0  # Local embedding model
+faiss-cpu>=1.8.0              # Vector similarity search (use faiss-gpu for GPU)
+numpy>=1.26.0                 # Numerical operations
